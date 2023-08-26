@@ -98,7 +98,7 @@ section{
     margin-bottom: 40px;
 }
 
-home .content h1 span{
+.home .content h1 span{
     font-size: 5em;
     font-weight: 600;
 }
@@ -135,8 +135,9 @@ home .content h1 span{
 }
 
 .home .media-icons a:hover{
-    color: #fff;
+    /* color: #fff; */
     font-size: 1.6em;
+    color: goldenrod;
 }
 
 .home video{
@@ -180,6 +181,7 @@ home .content h1 span{
 
 .slider-navigation .nav-btn:hover{
     transform: scale(1.2);
+    
 }
 
 .video-slider{
@@ -231,7 +233,8 @@ home .content h1 span{
     }
 
     header .navigation .navigation-items a:before{
-       background:#222;
+       /* background:#222; */
+        background: goldenrod;
         height: 5px;
     }
 
@@ -264,5 +267,18 @@ home .content h1 span{
         background-size: 25px;
         background-position: center;
         transition: 0.3s ease;
+    }
+}
+@media (max-width:870px){
+    .content #content-head{
+        font-size: 4em; 
+        line-height: 70px;
+    }
+}
+@media (max-width:480px){
+    .content #content-head{
+        font-size: 2.5em; 
+        line-height: 50px;
+        margin-bottom: 10px;
     }
 }
